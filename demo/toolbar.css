@@ -1,0 +1,22 @@
+#toolbar {padding: 10px; background: #000; color: #ddd}
+#toolbar input, .colorpicker input {width: 100%; box-shadow: none;}
+
+/*
+.picker, .picker div {border-radius:3px;-moz-border-radius:3px; -webkit-border-radius: 3px; background: url("colorpicker/images/select.png")}
+.picker {height: 36px;position: relative;width: 36px; float: left}
+.picker div {height: 30px;left: 3px;position: absolute;top: 3px;width: 30px;}
+*/
+.picker {
+    background-color: #222936;
+    border: 2px solid #222222;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    float: left;
+    height: 14px;
+    margin-left: 10px;
+    width: 60px;}
+
+#toolbar select {padding: 0 2px; float: right}
+
+#toolbar .ui-selectmenu {padding: 2px 3px; margin: 0 0 0 7px;}
