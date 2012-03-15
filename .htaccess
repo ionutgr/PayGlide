@@ -1,0 +1,18 @@
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+<Limit GET POST>
+	order deny,allow
+	deny from all
+	allow from all
+</Limit>
+
+<Limit PUT DELETE>
+	order deny,allow
+	deny from all
+</Limit>
+
+RewriteEngine on
+RewriteCond $1 !^(index\.php|images|style|demo|libraries|robots|eben|font|invite|js|jvblog|sneakpeek|jv-blog|javascript|\.txt)
+RewriteRule ^(.*)$ /index.php/$1 [L]
+
+
+
